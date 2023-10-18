@@ -1,0 +1,32 @@
+.title{
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.rating{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 3px;
+}
+
+.overview{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    height: 120px;
+    overflow-y: hidden;
+    margin-top: 10px;
+}
+
+.overview:hover{
+    overflow-y: auto;
+}
+
+.overview::-webkit-scrollbar{
+    display: none;
+}
+
+.rating_container{
+    display: flex;
+    gap: 8px;
+
+}
